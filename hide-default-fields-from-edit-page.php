@@ -13,4 +13,5 @@ function mypmpro_member_profile_edit_user_object_fields($fields) {
 	return $fields;
 }
 
-?>
+add_filter('pmpro_member_profile_edit_user_object_fields', 'mypmpro_member_profile_edit_user_object_fields', 10 , 1);
+
