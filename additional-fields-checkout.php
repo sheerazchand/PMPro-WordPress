@@ -344,7 +344,16 @@ function pmpro_customfields_top(){
 			)
 		)
 	);
-	
+
+	$fields[] = new PMProRH_Field(
+		'irrigator',
+		'checkbox',
+		array(
+			'label' => 'Irrigator',
+			'required' => true,
+			'profile' => true,
+		)
+	);
 	
 	$fields[] = new PMProRH_Field(
 		'acc_phone',							
